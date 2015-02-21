@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-02-14, 17:03:53
+    Author     : Kamil
+*/
+
+.class-list th a {
+    display: block;
+}
+
+.class-list th a,
+.class-list th a:hover,
+.class-list th a:visited,
+.class-list th a:focus {
+    color: #fff;
+}
+
+.class-list th:after {
+    position: absolute;
+    right: 5px;
+    top: calc(50% - 0.5em);
+}
+.class-list th.desc:after {
+    content: "\25BC";
+}
+
+.class-list th.asc:after {
+    content: "\25B2";
+}
+
+.class-list th.desc,
+.class-list th.asc {
+    background-color: #5c5b58;
+}
+
+.class-list th {
+    position: relative;
+}
